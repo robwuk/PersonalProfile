@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy');
 
 @font-face {
   font-family: 'Montserrat', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Satisfy', cursive;
 }
 
 body{
-  font-family: "Montserrat";
+  font-family: "Roboto";
 }
 
 #title{
   text-align: center;
 }
 h1{
-  font-size:500%;
+  font-family: "Satisfy";
+  font-size: 7vw;
   text-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 

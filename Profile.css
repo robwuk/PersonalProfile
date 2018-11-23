@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy');
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Satisfy', cursive;
+}
+
 @media only screen and (max-width: 600px) {
     body{background-color:lightblue;
     }
+}
+
+#title-text{
+  font-family: 'Roboto';
+  font-size: 3vw;
 }
 
 .container{
@@ -31,11 +47,11 @@
 }
 
 #welcome-section{
-    height:70vh;
+    height:85vh;
     background-color: white;
     margin-top:50px;
     text-align: center;
-    padding-top:30vh;
+    padding-top:15vh;
 }
 
 #about-section{
@@ -43,7 +59,7 @@
     background-color: white;
     margin-top:50px;
     text-align: center;
-    padding-top:7vh;
+    padding-top:4vh;
     padding-left: 3vh;
     padding-right: 3vh;
 }
@@ -62,15 +78,19 @@
   font-size: 200%;
   text-align: center;
   position: fixed;
-  width:6%;
-  margin-left: 47%;
-  border-radius: 5px;
+  width:7vw;
+  margin-left: 44.9vw;
+  //border-bottom: 1px solid orange;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
   font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #socialbar{
   height:6vh;
   top:0;
+  left:0;
   background-color: black;
   color: white;
   padding-left: 15px;
