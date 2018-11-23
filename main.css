@@ -24,13 +24,14 @@ h1{
 
 h2{
   font-variant:small-caps;
-  //text-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   font-size:120%;
+  text-decoration: underline;
 }
 
 ul {
     font-style:italic;
-    list-style-type:circle;
+    list-style-type:none;
 }
 
 h3{
@@ -58,8 +59,9 @@ a:hover{
 }
 
 .cardText{
-  background-color:rgba(00,0,0,0.9);
+//  background-color:rgba(00,0,0,0.9);
   margin-bottom:30px;
+  text-align: center;
 }
 
 .cardContent{

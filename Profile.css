@@ -14,9 +14,25 @@
     }
 }
 
+
 #title-text{
   font-family: 'Roboto';
   font-size: 3vw;
+}
+
+.body_img_url{
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    border:1px solid black;
+    filter:grayscale(80%);
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+.body_img_url:hover{
+  filter:grayscale(0%)
 }
 
 .container{
@@ -30,16 +46,6 @@
       grid-template-areas: "nav body";
       height: 100vh;
 }
-
-/*img{
-  height:200px;
-  max-width: 100%;
-  display: block;
-  border-radius: 10px;
-  border: 2px solid black;
-  box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  margin-left: 35%;
-}*/
 
 #breaker{
   //font-size: 40p;
@@ -68,21 +74,22 @@
 }
 
 #navhead{
-  height:7vh;
+font-family: "Satisfy";
+  height:8vh;
   top:0;
   background-color: orange;
   color: black;
   padding-left: 5px;
   padding-right: 5px;
-  padding-top: 5px;
+  padding-top:0.8vh;
   font-size: 200%;
   text-align: center;
   position: fixed;
-  width:7vw;
-  margin-left: 44.9vw;
+  width:15vw;
+  margin-left: 24vw;
   //border-bottom: 1px solid orange;
-  border-bottom-left-radius:5px;
-  border-bottom-right-radius:5px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
   font-weight: bold;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -108,9 +115,52 @@
   color: white;
   padding-right: 20px;
   padding-top: 5px;
-  font-size: 200%;
+  font-size: 2.5vw;
   text-align: right;
   position: fixed;
   margin-left:40%;
   width:59%;
+}
+
+.project-title{
+  text-align: center;
+}
+
+#footer{
+  height:6vh;
+  bottom:0;
+  left:0;
+  background-color: black;
+  color: white;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  //font-size: 200%;
+  text-align: center;
+  position: fixed;
+  width:100vw;
+}
+
+#footer-text a{
+  color: black;
+}
+
+#footer-text{
+//font-family: "Satisfy";
+  height:8vh;
+  bottom:0;
+  background-color: orange;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom:0.8vh;
+  font-size: 1vw;
+  text-align: center;
+  position: fixed;
+  width:40vw;
+  margin-left: 52vw;
+  //border-bottom: 1px solid orange;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  //font-weight: bold;
+  box-shadow: 0 -10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
